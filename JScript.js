@@ -14,7 +14,7 @@ function validateInput() {
       }
 
     if (username === "vikas@gmail.com" && password === "123456") {
-      window.location.href = "index.html";
+      window.location.href = "home.html";
       return true;
     } else {
       alert('Invalid username or password.');
